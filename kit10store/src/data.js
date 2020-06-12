@@ -109,4 +109,10 @@ export const storeProducts = [
       count: 0,
       total: 0
   };
+
+  export const SlideImages = {
+    slide1 : 'img/slide-1.jpg',
+    slide2 : 'img/slide-2.jpg',
+    slide3 : 'img/slide-3.jpg',
+  }
   

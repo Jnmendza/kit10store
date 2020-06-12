@@ -18,12 +18,12 @@ const Navbar = () => {
     return (
         <NavWrapper className="navbar navbar-expand-sm navbar-dark px-sm-5">
             <Link to="/">
-                <img src={logo} alt="store" className="navbar-brand" />
+                <img src={logo} height="55px" width="55px" alt="store" className="navbar-brand" />
             </Link>
             <ul className="navbar-nav align-items-center">
-                <li className="nav-item ml-5">
+                <li className="nav-item">
                     <Link to="/" className="nav-link">
-                        Gear
+                        Kit 10
                     </Link>
                 </li>
             </ul>
